@@ -1,0 +1,41 @@
+{
+  "name": "luoi",
+  "version": "1.0.0",
+  "description": "Learning from imooc,just s test!",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.15.1",
+    "connect-mongo": "^1.2.0",
+    "connect-multiparty": "^2.0.0",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "grunt": "^1.0.1",
+    "grunt-concurrent": "^2.3.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-less": "^1.3.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-nodemon": "^0.4.2",
+    "jade": "^1.11.0",
+    "moment": "^2.13.0",
+    "mongoose": "^4.4.16",
+    "morgan": "^1.7.0",
+    "underscore": "^1.8.3",
+    "grunt-mocha-test": "^0.12.7",
+    "should": "^8.4.0",
+    "serve-static": "^1.10.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "luoi",
+  "license": "ISC"
+}
